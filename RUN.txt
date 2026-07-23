@@ -1,0 +1,9 @@
+python -m streamlit run app.py
+
+cd backend
+python -m uvicorn main:app --reload
+
+cd frontend
+python -m streamlit run app.py
+
+https://www.udemy.com/course/build-ai-agents-crewai-langgraph-openai-sdk-autogen-mcp/?srsltid=AfmBOorBjm3PZX2J9MIy1bf9_P4Sey9xv5BgYsXQviqYhZzwiOIrU2ew&couponCode=PMNVD2025
